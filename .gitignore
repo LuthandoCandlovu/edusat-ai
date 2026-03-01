@@ -1,0 +1,50 @@
+﻿# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# Streamlit
+.streamlit/
+
+# Data files (if you don't want to upload data)
+# *.xlsx
+# *.csv
+# *.db
+
+# Models (optional - can be large)
+models/*.joblib
+!models/README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Keep your data file (remove # if you don't want to upload data)
+# data/Eastern_Cape_Education_Factors_Dataset.xlsx

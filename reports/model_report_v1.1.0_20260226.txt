@@ -1,0 +1,32 @@
+============================================================
+EDUSAT AI - MODEL TRAINING REPORT (NO LEAKAGE)
+============================================================
+
+Date: 2026-02-26 02:08
+Model Version: v1.1.0
+Features used: 22
+Training Samples: 320
+Test Samples: 80
+
+CROSS-VALIDATION:
+Mean F1: 0.998 (+/- 0.010)
+
+TEST METRICS:
+Accuracy:  1.000
+F1 Score:  1.000
+Precision: 1.000
+Recall:    1.000
+ROC-AUC:   1.000
+
+TOP 10 RISK FACTORS:
+                      feature  importance
+10        ReadingScore_0_1000    0.528852
+11           MathScore_0_1000    0.163433
+0                       Grade    0.050096
+8            AttendanceRate_%    0.024643
+5         LearnerTeacherRatio    0.024496
+9   AcademicSelfConcept_0_100    0.021825
+4     FoodSecurityIndex_0_100    0.020159
+3     HouseholdUnemployment_%    0.019301
+6        TeacherVacancyRate_%    0.018724
+2          TravelTime_minutes    0.017675

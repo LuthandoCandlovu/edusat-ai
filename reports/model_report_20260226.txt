@@ -1,0 +1,30 @@
+============================================================
+EDUSAT AI - MODEL TRAINING REPORT
+============================================================
+
+Date: 2026-02-26 01:44
+Model Version: v1.0.0
+Training Samples: 320
+Test Samples: 80
+Features: 23
+
+CROSS-VALIDATION:
+F1 Scores: [1. 1. 1. 1. 1.]
+Mean F1: 1.000
+
+TEST METRICS:
+Accuracy:  1.000
+F1 Score:  1.000
+Precision: 1.000
+Recall:    1.000
+ROC-AUC:   1.000
+
+CLASSIFICATION REPORT:
+              precision    recall  f1-score   support
+
+     At Risk       1.00      1.00      1.00        41
+ Not At Risk       1.00      1.00      1.00        39
+
+    accuracy                           1.00        80
+   macro avg       1.00      1.00      1.00        80
+weighted avg       1.00      1.00      1.00        80
